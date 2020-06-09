@@ -1,0 +1,56 @@
+.banner {
+  background: url("../images/72.png");
+  background-size: cover;
+  height: 304px;
+  h2 {
+    font-size: 64px;
+    line-height: 80px;
+    img {
+      display: inline-block;
+      width: 58px;
+      height: 58px;
+    }
+  }
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.dcrs {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.dfjs {
+  display: flex;
+  justify-content: flex-start;
+}
+.faq-content {
+  padding-top: 88px;
+  padding-bottom: 156px;
+  h2 {
+    margin-bottom: 16px;
+  }
+  .collapsible {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    background: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: left;
+    &:hover {
+      border-color: #000;
+    }
+    img {
+      display: inline-block;
+    }
+  }
+  .content {
+    border: 1px solid #000;
+    background: #f2f2f2;
+    padding: 18px;
+  }
+}

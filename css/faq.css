@@ -1,0 +1,81 @@
+.banner {
+  background: url("../images/72.png");
+  background-size: cover;
+  height: 304px;
+}
+
+.banner h2 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.banner h2 img {
+  display: inline-block;
+  width: 58px;
+  height: 58px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.dcrs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.dfjs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.faq-content {
+  padding-top: 88px;
+  padding-bottom: 156px;
+}
+
+.faq-content h2 {
+  margin-bottom: 16px;
+}
+
+.faq-content .collapsible {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: left;
+}
+
+.faq-content .collapsible:hover {
+  border-color: #000;
+}
+
+.faq-content .collapsible img {
+  display: inline-block;
+}
+
+.faq-content .content {
+  border: 1px solid #000;
+  background: #f2f2f2;
+  padding: 18px;
+}
+/*# sourceMappingURL=faq.css.map */
